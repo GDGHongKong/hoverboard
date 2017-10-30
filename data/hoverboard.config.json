@@ -1,13 +1,14 @@
 {
-  "url": "https://devfest.gdghk.org",
-  "startDate": "2017-11-11T09:00:00+08:00",
-  "endDate": "2017-11-11T18:00:00+08:00",
+  "url": "https://hoverboard.firebaseapp.com/",
+  "startDate": "2016-09-09T09:00:00+03:00",
+  "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
-    "prod": "UA-68708421-2",
-    "dev": "UA-68708421-2"
+    "prod": "UA-43643469-8",
+    "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Hong Kong"
+    "name": "GDG Lviv",
+    "twitter": "gdglviv"
   },
   "webapp": {
     "shortName": "DevFest",
@@ -15,27 +16,27 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "devfest-hk-2017",
-    "domain": "devfest-hk-2017.firebaseapp.com",
-    "database": "https://devfest-hk-2017.firebaseio.com",
-    "api": "AIzaSyC__yrek2Eobo6W4dih0z_yYchUaHAa-xk",
+    "name": "hoverboard-master",
+    "domain": "hoverboard-master.firebaseapp.com",
+    "database": "https://hoverboard-master.firebaseio.com",
+    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
   },
   "mailchimp": {
-    "url": "https://gdghk.us17.list-manage.com/subscribe?u=a9444389310d69c34d417c11f&id=8fb4bc3060",
-    "name": "b_a9444389310d69c34d417c11f_8fb4bc3060"
+    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
   "dateFormat": {
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfhk",
+  "hashtag": "dfua",
   "disqusShortName": "hoverboard-gdg-x",
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -61,40 +62,55 @@
   ],
   "social": [
     {
-      "name": "facebook",
-      "nickname": "GDGHongKong",
-      "url": "https://www.facebook.com/GDGHongKong"
+      "name": "twitter",
+      "nickname": "GDGLviv",
+      "url": "https://twitter.com/gdglviv"
     },
-	{
+    {
       "name": "gplus",
-      "nickname": "101989816978489369807",
-      "url": "https://plus.google.com/u/0/101989816978489369807"
+      "nickname": "102444623953913144164",
+      "url": "https://plus.google.com/102444623953913144164"
     },
-	{
-      "name": "website",
-      "nickname": "GDG Hong Kong",
-      "url": "http://www.gdghk.org/"
-	  }
+    {
+      "name": "facebook",
+      "nickname": "GDGLviv",
+      "url": "https://www.facebook.com/GDGLviv"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "google-developers-group-lviv",
+      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+    }
   ],
   "location": {
     "apiKey": "",
-    "name": "City University of Hong Kong",
-    "address": "Tat Chee Avenue, Kowloon",
-    "link": "https://www.facebook.com/cityuniversityhongkong/",
+    "name": "Pivdennyi Expo Center",
+    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
-      "latitude": 22.336228,
-      "longitude": 114.173331,
-      "zoom": 16
+      "latitude": 49.809841,
+      "longitude": 23.972805,
+      "zoom": 15
     },
     "mapCenter": {
-      "latitude": 22.336228,
-      "longitude": 114.173331
+      "latitude": 49.809841,
+      "longitude": 23.982805
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
       "/images/backgrounds/location_2.jpg",
       "/images/backgrounds/location_3.jpg"
     ]
+  },
+  "gallery": {
+    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "photos": {
+      "big": "/images/backgrounds/2015_1.jpg",
+      "small": [
+        "/images/backgrounds/2015_2.jpg",
+        "/images/backgrounds/2015_3.jpg"
+      ]
+    }
   },
   "pages": {
     "home": {
@@ -105,9 +121,9 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Hong Kong 2017",
-          "youtubeId": "",
-          "text": "The biggest Google tech conference in Hong Kong!"
+          "title": "GDG DevFest Ukraine 2016",
+          "youtubeId": "TdpbgRgz6eE",
+          "text": "See how it was in 2016"
         },
         "hideLogo": true,
         "minHeight": "360px"
