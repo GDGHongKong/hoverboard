@@ -3,20 +3,24 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "./build",
-    "cleanUrls": true,
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
-        "source": "**/*",
+        "source": "**",
         "destination": "/index.html"
       }
-    ],
-    "ignore": [
-      "/test/**",
-      "bower.json",
-      "database.rules.json",
-      "firebase.json",
-      "README.md"
     ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }

@@ -1,20 +1,20 @@
 {
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+  "title": "GDG DevFest Season 2017 Hong Kong",
+  "description": "The biggest Google tech conference in Hong Kong carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
-  "locationAddressShort": "Lviv, Ukraine",
-  "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "See how it was in 2015",
+  "dates": "November 11, 2017",
+  "locationAddressShort": "Hong Kong",
+  "motto": "香港最大的Google技術論壇!",
+  "playIcon": "The biggest Google tech conference in Hong Kong!",
   "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Get ticket",
   "backToTop": "Back to top",
   "subscribe": "Subscribe",
   "yourEmail": "Your email",
   "subscribeNote": "No spam, only the latest news and updates!",
   "contactUs": "Contact us",
   "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+  "ticketsDetails": "Tickets grant access to all conference sections.",
   "close": "Close",
   "soldOutTickets": "Sold Out",
   "socialTitle": "Social",
@@ -28,11 +28,11 @@
   "featuredPeopleTitle": "Rockstar Speakers",
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
+  "locationTitle": "CityU, Hong Kong",
+  "locationDescription": "City University of Hong Kong aspires to become a leading global university, excelling in research and professional education.",
+  "locationAddress": "Tat Chee Avenue, Kowloon",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+  "aboutOrganizers": "<a href='http://gdghk.org' target='_blank'>GDG Hong Kong</a> is proud organizer of DevFest Hong Kong",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
   "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -78,33 +78,18 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "text": "Women Techmakers Hong Kong",
+          "url": "https://fb.me/WTMHongKong/",
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
+          "text": "GDG DevFest Hong Kong 2015",
+          "url": "http://devfest2015.gdghk.org",
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "For Partners",
-      "links": [
-        {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
+          "text": "GDG DevFest Hong Kong 2016",
+          "url": "http://devfest2016.gdghk.org",
           "newTab": true
         }
       ]
@@ -113,33 +98,29 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "organizer@gdghk.org",
+        "url": "mailto:organizer@gdghk.org"
       }
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Hong Kong](http://gdghk.org/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 400,
       "caption": "Attendees"
     },
     {
-      "counter": 2,
-      "caption": "Days"
+      "counter": 1,
+      "caption": "Day"
     },
     {
-      "counter": 30,
+      "counter": 16,
       "caption": "Sessions"
     },
     {
-      "counter": 3,
+      "counter": 4,
       "caption": "Tracks"
     }
-  ],
-  "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
-    "videoId": "DfMnJAzOFng"
-  }
+  ]
 }
