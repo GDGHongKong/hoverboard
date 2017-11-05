@@ -164,12 +164,12 @@
     },
     "122" : {
       "complexity" : "Beginner",
-      "description" : "Firebase Firestore",
+      "description" : "Cloud Firestore: Rapid Development",
       "id" : 122,
       "language" : "Cantonese",
       "speakers" : [ 11 ],
-      "tags" : [ "Web and Mobile" ],
-      "title" : "Firebase Firestore"
+      "tags" : [ "Cloud" ],
+      "title" : "Cloud Firestore: Rapid Development"
     },
     "123" : {
       "complexity" : "Beginner",
@@ -189,9 +189,9 @@
       "title" : "Android Oreo"
     },
     "125" : {
-      "description" : "Panel / AMA",
+      "description" : "Panel Discussion / Ask me anything",
       "id" : 125,
-      "title" : "Panel / AMA"
+      "title" : "Panel Discussion / Ask me anything"
     },
     "211" : {
       "complexity" : "Beginner",
@@ -598,15 +598,15 @@
       "link" : "http://www.gcpug.hk/",
       "name" : "GCPUG"
     } ],
-    "bio" : "Google Cloud Platform Hong Kong User Group",
-    "company" : "GCPUGHK",
-    "companyLogo" : "/images/logos/GCPUGHK.png",
+    "bio" : "Ryan Tsang",
+    "company" : "Red Soldier Limited",
+    "companyLogo" : "/images/logos/redso_logo.png",
     "country" : "Hong Kong",
     "featured" : true,
     "id" : 11,
-    "name" : "GCPUGHK",
-    "photoUrl" : "/images/people/GCPUGHK.png",
-    "shortBio" : "Google Cloud Platform Hong Kong User Group",
+    "name" : "Ryan Tsang",
+    "photoUrl" : "/images/people/redso_ryantsang.jpg",
+    "shortBio" : "Ryan Tsang",
     "socials" : [ {
       "icon" : "website",
       "link" : "http://www.gcpug.hk/",
