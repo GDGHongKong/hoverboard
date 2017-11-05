@@ -14,19 +14,15 @@
       "url" : "https://fb.com/WTMHongKong"
     } ],
     "title" : "General Partner"
-  },
-    {
-    "title": "Supporting Organization",
-    "logos": [
-      {
-        "name": "Department of Computer Science, City University of Hong Kong",
-        "url": "http://www.cs.cityu.edu.hk/",
-        "logoUrl": "../images/logos/cityuCS.png",
-        "width": 250
-      }
-    ]
-  }
-  ,{
+  }, {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/cityuCS.png",
+      "name" : "Department of Computer Science, City University of Hong Kong",
+      "url" : "http://www.cs.cityu.edu.hk/",
+      "width" : 250
+    } ],
+    "title" : "Supporting Organization"
+  }, {
     "logos" : [ {
       "logoUrl" : "../images/logos/gdg-lviv.svg",
       "name" : "GDG Lviv",
@@ -51,7 +47,7 @@
       "sessions" : [ [ 103 ] ],
       "startTime" : "10:00"
     }, {
-	  "endTime" : "11:00",
+      "endTime" : "11:00",
       "sessions" : [ [ 104 ] ],
       "startTime" : "10:45"
     }, {
@@ -68,11 +64,11 @@
       "startTime" : "12:00"
     }, {
       "endTime" : "14:30",
-      "sessions" : [ [ 121 ], [ 221 ], [ 321 ] , [ 421 ]],
+      "sessions" : [ [ 121 ], [ 221 ], [ 321 ], [ 421 ] ],
       "startTime" : "14:00"
     }, {
       "endTime" : "15:15",
-      "sessions" : [ [ 122 ], [ 222 ], [ 322 ] , [ 422 ]],
+      "sessions" : [ [ 122 ], [ 222 ], [ 322 ], [ 422 ] ],
       "startTime" : "14:45"
     }, {
       "endTime" : "16:15",
@@ -84,13 +80,13 @@
       "startTime" : "16:30"
     }, {
       "endTime" : "18:00",
-      "sessions" : [ [ 125 ], [ 225 ], [ 325 ], [ 425 ] ],
+      "sessions" : [ [ 125 ] ],
       "startTime" : "17:30"
     }, {
       "endTime" : "18:45",
       "sessions" : [ [ 106 ] ],
       "startTime" : "18:15"
-    }],
+    } ],
     "tracks" : [ {
       "title" : "LT 401"
     }, {
@@ -106,22 +102,22 @@
       "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
       "id" : 101,
       "image" : "/images/backgrounds/registration.jpg",
-      "title" : "Registration & morning Coffee"
+      "title" : "Registration"
     },
-	"102" : {
+    "102" : {
       "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
       "id" : 102,
       "image" : "/images/backgrounds/opening.jpg",
       "language" : "English/Cantonese",
       "title" : "GDG DevFest Hong Kong 2017 Opening"
     },
- 	"103" : {
+    "103" : {
       "description" : "",
       "id" : 103,
       "language" : "English/Cantonese",
       "title" : "Keynote"
     },
-	"104" : {
+    "104" : {
       "description" : "Photo Taking + Break!",
       "id" : 104,
       "image" : "/images/backgrounds/coffee-break.jpg",
@@ -133,7 +129,7 @@
       "image" : "/images/backgrounds/lunch.jpg",
       "title" : "Lunch Break"
     },
-	"106" : {
+    "106" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
       "id" : 106,
       "image" : "/images/backgrounds/closing.jpg",
@@ -158,29 +154,30 @@
       "title" : "DialogFlow"
     },
     "121" : {
-      "complexity" : "Intermediate",
-      "description" : "AdMob",
-      "id" : 103,
+      "complexity" : "Beginner",
+      "description" : "Do you want to monetize your app in an easy and stable way? Do you want to see a big increase in your ads revenue? Come and join our AdMob monetization class. <br/>This talk will introduce you how to best optimize your ads placement and maximize revenue through AdMob's different ad formats and features. Topics covered include: AdMob product updates, optimization for Rewarded video, Interstitials and Native ads, case studies, and more!",
+      "id" : 121,
       "language" : "Mandarin",
-      "tags" : [ "Web and Mobile" ],
-      "title" : "AdMob"
+      "speakers" : [ 13 ],
+      "tags" : [ "Web and Mobile", "AdMob" ],
+      "title" : "Take Your Monetization to the Next Level"
     },
     "122" : {
       "complexity" : "Beginner",
-      "description" : "Firebase",
+      "description" : "Firebase Firestore",
       "id" : 122,
       "language" : "Cantonese",
+      "speakers" : [ 11 ],
       "tags" : [ "Web and Mobile" ],
-      "title" : "Firebase"
+      "title" : "Firebase Firestore"
     },
     "123" : {
-      "complexity" : "Intermediate",
-      "description" : "ARCore",
+      "complexity" : "Beginner",
+      "description" : "TBA",
       "id" : 123,
-      "language" : "Cantonese",
-      "speakers" : [ 3 ],
-      "tags" : [ "Web and Mobile" ],
-      "title" : "ARCore"
+      "language" : "TBA",
+      "tags" : [ "Cloud" ],
+      "title" : "TBA"
     },
     "124" : {
       "complexity" : "Beginner",
@@ -192,12 +189,9 @@
       "title" : "Android Oreo"
     },
     "125" : {
-      "complexity" : "Beginner",
-      "description" : "TBD",
+      "description" : "Panel / AMA",
       "id" : 125,
-      "language" : "TBD",
-      "tags" : [ "Web and Mobile" ],
-      "title" : "TBD"
+      "title" : "Panel / AMA"
     },
     "211" : {
       "complexity" : "Beginner",
@@ -210,11 +204,12 @@
     },
     "212" : {
       "complexity" : "Beginner",
-      "description" : "UX",
+      "description" : "Both designers and developers are innovators! Merge mindsets between designers, engineers and other stakeholders with design thinking. Come together and engage in the development process with a more effective approach.",
       "id" : 212,
-      "language" : "TBD",
-     "tags" : [ "Cloud" ],
-      "title" : "UX"
+      "language" : "Cantonese",
+      "speakers" : [ 7 ],
+      "tags" : [ "UX" ],
+      "title" : "Bridging the Gap — Developers Meet Design"
     },
     "221" : {
       "complexity" : "Intermediate",
@@ -244,13 +239,13 @@
       "title" : "Maps Url"
     },
     "224" : {
-      "complexity" : "Beginner",
-      "description" : "Save to Android Pay API",
+      "complexity" : "Intermediate",
+      "description" : "WebAR",
       "id" : 224,
       "language" : "Cantonese",
-      "speakers" : [ 5 ],
-      "tags" : [ "Cloud" ],
-      "title" : "Save to Android Pay API"
+      "speakers" : [ 3 ],
+      "tags" : [ "Web and Mobile" ],
+      "title" : "WebAR"
     },
     "225" : {
       "complexity" : "TBD",
@@ -281,16 +276,18 @@
       "description" : "Case Study - Tensorflow Application for Textile Industry",
       "id" : 321,
       "language" : "English",
+      "speakers" : [ 10 ],
       "tags" : [ "Dev 101" ],
       "title" : "Case Study - Tensorflow Application for Textile Industry"
     },
     "322" : {
       "complexity" : "Beginner",
-      "description" : "Google CS First",
+      "description" : "Google CS First: empower kids to create with technology, through free computer science clubs!",
       "id" : 322,
       "language" : "Cantonese",
+      "speakers" : [ 12 ],
       "tags" : [ "Dev 101" ],
-      "title" : "Google CS First"
+      "title" : "Google CS First: empower kids to create with technology, through free computer science clubs!"
     },
     "323" : {
       "complexity" : "Beginner",
@@ -305,7 +302,8 @@
       "complexity" : "Beginner",
       "description" : "Google Local Guides",
       "id" : 324,
-      "language" : "TBD",
+      "language" : "Cantonese/English",
+      "speakers" : [ 14 ],
       "tags" : [ "Dev 101" ],
       "title" : "Google Local Guides"
     },
@@ -322,7 +320,7 @@
       "description" : "GCP",
       "id" : 421,
       "language" : "English",
-      "speakers" : [ 3 ],
+      "speakers" : [ 4 ],
       "tags" : [ "Machine Learning" ],
       "title" : "GCP"
     },
@@ -331,6 +329,7 @@
       "description" : "Data transformation using Google Cloud Dataprep",
       "id" : 422,
       "language" : "Mandarin",
+      "speakers" : [ 8 ],
       "tags" : [ "Machine Learning" ],
       "title" : "Data transformation using Google Cloud Dataprep"
     },
@@ -339,6 +338,7 @@
       "description" : "Tensoflow and Machine Learning",
       "id" : 423,
       "language" : "English",
+      "speakers" : [ 9 ],
       "tags" : [ "Machine Learning" ],
       "title" : "Tensoflow and Machine Learning"
     },
@@ -362,9 +362,9 @@
   },
   "speakers" : [ null, {
     "badges" : [ {
-		"name": "GDG",
-		"description": "Google Developer Group Hong Kong",
-		"link": "http://www.gdghk.org/"
+      "description" : "Google Developer Group Hong Kong",
+      "link" : "http://www.gdghk.org/",
+      "name" : "GDG"
     } ],
     "bio" : "Fung is an Android Developer, focusing on Cloud and Mobile. Before that, he was a full-stack DevOpt on Java, on Linux, and on MySQL. Fung is a lead organizer in Google Developer Groups (GDG). He is also speakers in Tech Talks and Code-Labs in different GDG events in different cities.",
     "company" : "GDG Hong Kong",
@@ -376,29 +376,26 @@
     "photoUrl" : "/images/people/gdg_fung.jpg",
     "shortBio" : "Fung is an Android Developer....",
     "socials" : [ {
-		"icon": "linkedin",
-		"link": "https://www.linkedin.com/in/lamchofung",
-		"name": "Linkedin"
-	  },
-	  {
-		"icon": "gplus",
-		"link": "https://plus.google.com/+FungLAM",
-		"name": "Google+"
-	  },
-	  {
-		"icon": "website",
-		"link": "http://www.androidfung.com",
-		"name": "Blog"
-	  }],
-    "tags" : [ "Cloud", "Android", "Web","Firebase" ],
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/lamchofung",
+      "name" : "Linkedin"
+    }, {
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/+FungLAM",
+      "name" : "Google+"
+    }, {
+      "icon" : "website",
+      "link" : "http://www.androidfung.com",
+      "name" : "Blog"
+    } ],
+    "tags" : [ "Cloud", "Android", "Web", "Firebase" ],
     "title" : "Organizer"
   }, {
     "badges" : [ {
-		"name": "GDG",
-		"description": "Google Developer Group Hong Kong",
-		"link": "http://www.gdghk.org/"
+      "description" : "Google Developer Group Hong Kong",
+      "link" : "http://www.gdghk.org/",
+      "name" : "GDG"
     } ],
-	
     "bio" : "Mr. Kinni Mew is the co-founder of Mindlayer. As a young company, its innovative projects have received fundings like Technology Start-up Support Scheme for Universities (TSSSU) 2016/17, Cyberport Incubation Programme 2016/17 and DBS Accelerator Program2016. In 2015, Mr. Kinni Mew was nominated by CityU to join the Cyberport University Partnership Programme (CUPP). In collaboration with Stanford Graduate School of Business, Mr. Kinni Mew went to Silicon Valley for a one-week entrepreneurship boot camp and visited Google, Facebook Headquarters and other companies at Silicon Valley. Mr. Mew was then awarded with cash prize of HK$100,000 in the ‘Global Entrepreneurship week China-Hong Kong’.",
     "company" : "Mindlayer Limited",
     "companyLogo" : "/images/logos/mindlayer_logo.png",
@@ -409,25 +406,22 @@
     "photoUrl" : "/images/people/gdg_kinni.jpg",
     "shortBio" : "Mr. Kinni Mew is the co-founder of Mindlayer.n...",
     "socials" : [ {
-		"icon": "website",
-		"name": "Website",
-		"link": "http://mindlayer.io/"
-	},
-	{
-		"icon": "twitter",
-		"name": "Twitter",
-		"link": "https://twitter.com/kinnimew"
-	},
-	{
-		"icon": "linkedin",
-		"link": "https://www.linkedin.com/in/kinni-mew-91bb48aa/",
-		"name": "Linkedin"
-	  },
-	  {
-		"icon": "gplus",
-		"link": "https://plus.google.com/u/0/+KinniMew",
-		"name": "Google+"
-	  } ],
+      "icon" : "website",
+      "link" : "http://mindlayer.io/",
+      "name" : "Website"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/kinnimew",
+      "name" : "Twitter"
+    }, {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/kinni-mew-91bb48aa/",
+      "name" : "Linkedin"
+    }, {
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/u/0/+KinniMew",
+      "name" : "Google+"
+    } ],
     "tags" : [ "Machine Learning", "Entrepreneurship" ],
     "title" : "Co-founder"
   }, {
@@ -441,28 +435,26 @@
     "photoUrl" : "/images/people/DavidNg.jpg",
     "shortBio" : "David is a Product Manager at Skygear.io, an open source backend for mobile apps and web apps...",
     "socials" : [ {
-		"icon": "website",
-		"name": "Website",
-		"link": "http://www.davidng.hk"
-	},
-	{
-		"icon": "linkedin",
-		"name": "Linkedin",
-		"link": "https://www.linkedin.com/in/david-ng-66885461"
-	} ],
-    "tags" : [ "Web", "IoT", "Smart Home","Mobile" ],
+      "icon" : "website",
+      "link" : "http://www.davidng.hk",
+      "name" : "Website"
+    }, {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/david-ng-66885461",
+      "name" : "Linkedin"
+    } ],
+    "tags" : [ "Web", "IoT", "Smart Home", "Mobile" ],
     "title" : "Product Manager"
   }, {
-	"badges": [ {
-                "name": "GDE",
-                "description": "Google Developers Experts",
-                "link": "https://developers.google.com/experts/people/homing-tam"
-            },
-			{
-                "name": "GDG",
-                "description": "Google Developer Group Hong Kong",
-                "link": "http://www.gdghk.org/"
-            }],
+    "badges" : [ {
+      "description" : "Google Developers Experts",
+      "link" : "https://developers.google.com/experts/people/homing-tam",
+      "name" : "GDE"
+    }, {
+      "description" : "Google Developer Group Hong Kong",
+      "link" : "http://www.gdghk.org/",
+      "name" : "GDG"
+    } ],
     "bio" : "Homing was recognized by Google as a member of the Google Developers Experts (GDE) community focusing in Maps API. He gives speeches, workshops and works closely with the Google Maps team. His other focus includes Google Cloud Platform & Google Analytics.",
     "company" : "Google Developer Expert",
     "companyLogo" : "/images/logos/google-developers-experts.png",
@@ -473,55 +465,27 @@
     "photoUrl" : "/images/people/gdg_homing.jpg",
     "shortBio" : "Homing was recognized by Google as a member of GDE....",
     "socials" : [ {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+HomingTam",
-            "name": "Google+"
-          },
-          {
-            "icon": "website",
-            "link": "https://tamhoming.wordpress.com/",
-            "name": "Blog"
-          } ],
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/+HomingTam",
+      "name" : "Google+"
+    }, {
+      "icon" : "website",
+      "link" : "https://tamhoming.wordpress.com/",
+      "name" : "Blog"
+    } ],
     "tags" : [ "Cloud", "Maps", "GDE" ],
     "title" : "Google Developer Expert"
   }, {
     "badges" : [ {
-		"name": "GDG",
-		"description": "Google Developer Group Hong Kong",
-		"link": "http://www.gdghk.org/"
+      "description" : "Google Developer Group Hong Kong",
+      "link" : "http://www.gdghk.org/",
+      "name" : "GDG"
+    }, {
+      "description" : "Women Techmakers Hong Kong",
+      "link" : "https://fb.me/WTMHongKong",
+      "name" : "WTM"
     } ],
-    "bio" : "Peter Lo.",
-    "company" : "CG Marketing Company Ltd",
-    "companyLogo" : "/images/logos/cgmarketing.png",
-    "country" : "Hong Kong",
-    "featured" : true,
-    "id" : 5,
-    "name" : "Peter Lo",
-    "photoUrl" : "/images/people/gdg_peter.jpg",
-    "shortBio" : "Peter Lo...",
-    "socials" : [{
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/petercslo",
-            "name": "Linkedin"
-          },{
-            "icon": "gplus",
-            "link": "https://plus.google.com/+PeterLoCS",
-            "name": "Google+"
-          } ],
-    "tags" : [ "Cloud", "Android Pay", "Android", "Entrepreneurship" ],
-    "title" : "Co-Founder"
-  }, {
-    "badges" : [ {
-		"name": "GDG",
-		"description": "Google Developer Group Hong Kong",
-		"link": "http://www.gdghk.org/"
-    },
-	{
-		"name": "WTM",
-		"description": "Women Techmakers Hong Kong",
-		"link": "https://fb.me/WTMHongKong"
-    }	],
-    "bio" : "Emma Wong is the WTM Hong Kong Lead",
+    "bio" : "Emma Wong is an experienced Android developer, have delivered over 20 mobile/web application projects, include awarded mobile apps with >1 Million users. She is the GDG HK organizer, and Womem Techmakers(WTM) HK Lead. <br/>Google's Women Techmakers program provides visibility, community, and resources for women in technology.https://www.womentechmakers.com",
     "company" : "Cherrypicks",
     "companyLogo" : "/images/logos/cherrypicks.png",
     "country" : "Hong Kong",
@@ -531,169 +495,293 @@
     "photoUrl" : "/images/people/gdg_emma.jpg",
     "shortBio" : "Emma Wong is the WTM Hong Kong Lead...",
     "socials" : [ {
-		"icon": "linkedin",
-		"link": "https://www.linkedin.com/in/emma-wong-32477976",
-		"name": "Linkedin"
-	  },
-	  {
-		"icon": "gplus",
-		"link": "https://plus.google.com/u/0/111901210044260497856",
-		"name": "Google+"
-	  } ],
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/emma-wong-32477976",
+      "name" : "Linkedin"
+    }, {
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/u/0/111901210044260497856",
+      "name" : "Google+"
+    } ],
     "tags" : [ "Android", "Google Assistant" ],
     "title" : "System Analyst"
+  }, {
+    "bio" : "Constance is a User Interface and Experience Designer with over 5 years of experience creating usable and delightful digital experience for corporates and startups. For her past few years, she designed app and web products at an IT solution company and corporated with clients like Cathay Pacific, RTHK, SmarTone, TVB etc. Her thirst for solving users problems through design has carried her through ever since.",
+    "company" : "UI/UX Designer",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 7,
+    "name" : "Constance Tang",
+    "photoUrl" : "/images/people/constance.png",
+    "shortBio" : "Constance is a User Interface and Experience Designer...",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/constancetang/",
+      "name" : "Linkedin"
+    }, {
+      "icon" : "website",
+      "link" : "https://constance-tang.com",
+      "name" : "Website"
+    }, {
+      "icon" : "behance",
+      "link" : "https://www.behance.net/constancetang",
+      "name" : "Behance"
+    } ],
+    "tags" : [ "UX", "UI" ],
+    "title" : "UX/UI Designer"
+  }, {
+    "bio" : "Dr. Kuo / CloudMile CTO",
+    "company" : "CloudMile",
+    "companyLogo" : "/images/logos/cloudmile.png",
+    "country" : "Taiwan",
+    "featured" : true,
+    "id" : 8,
+    "name" : "Dr. Kuo",
+    "photoUrl" : "/images/people/Dr-kuo.png",
+    "shortBio" : "Dr. Kuo / CloudMile CTO",
+    "socials" : [ {
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/CloudMileFans/",
+      "name" : "Facebook"
+    }, {
+      "icon" : "website",
+      "link" : "http://www.mile.cloud",
+      "name" : "Website"
+    } ],
+    "tags" : [ "Cloud", "Machine Learning" ],
+    "title" : "CTO"
+  }, {
+    "bio" : "Jonathan Wang / CLoudMile IT Director",
+    "company" : "CloudMile",
+    "companyLogo" : "/images/logos/cloudmile.png",
+    "country" : "Taiwan",
+    "featured" : true,
+    "id" : 9,
+    "name" : "Jonathan Wang",
+    "photoUrl" : "/images/people/JonathanWang.jpg",
+    "shortBio" : "Jonathan Wang / CLoudMile IT Director",
+    "socials" : [ {
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/CloudMileFans/",
+      "name" : "Facebook"
+    }, {
+      "icon" : "website",
+      "link" : "http://www.mile.cloud",
+      "name" : "Website"
+    } ],
+    "tags" : [ "Cloud", "Machine Learning" ],
+    "title" : "IT Director"
+  }, {
+    "bio" : "Jeff Liu/ CloudMile Data Scientist",
+    "company" : "CloudMile",
+    "companyLogo" : "/images/logos/cloudmile.png",
+    "country" : "Taiwan",
+    "featured" : true,
+    "id" : 10,
+    "name" : "Jeff Liu",
+    "photoUrl" : "/images/people/JeffLiu.png",
+    "shortBio" : "Jeff Liu/ CloudMile Data Scientist",
+    "socials" : [ {
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/CloudMileFans/",
+      "name" : "Facebook"
+    }, {
+      "icon" : "website",
+      "link" : "http://www.mile.cloud",
+      "name" : "Website"
+    } ],
+    "tags" : [ "Cloud", "Machine Learning" ],
+    "title" : "Data Scientist"
+  }, {
+    "badges" : [ {
+      "description" : "Google Cloud Platform Hong Kong User Group",
+      "link" : "http://www.gcpug.hk/",
+      "name" : "GCPUG"
+    } ],
+    "bio" : "Google Cloud Platform Hong Kong User Group",
+    "company" : "GCPUGHK",
+    "companyLogo" : "/images/logos/GCPUGHK.png",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 11,
+    "name" : "GCPUGHK",
+    "photoUrl" : "/images/people/GCPUGHK.png",
+    "shortBio" : "Google Cloud Platform Hong Kong User Group",
+    "socials" : [ {
+      "icon" : "website",
+      "link" : "http://www.gcpug.hk/",
+      "name" : "Website"
+    }, {
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/groups/gcpughk/",
+      "name" : "Facebook"
+    } ],
+    "tags" : [ "Cloud", "Machine Learning" ],
+    "title" : "Data Scientist"
+  }, {
+    "bio" : "Kristy Wong",
+    "company" : "Google",
+    "companyLogo" : "/images/logos/google.svg",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 12,
+    "name" : "Kristy Wong",
+    "photoUrl" : "/images/people/Kristy.png",
+    "shortBio" : "Google CS First",
+    "socials" : [ {
+      "icon" : "website",
+      "link" : "https://csfirst.withgoogle.com/",
+      "name" : "Website"
+    }, {
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/u/3/111386401481633414088",
+      "name" : "Google+"
+    } ],
+    "tags" : [ "CS First" ],
+    "title" : "Account Associate"
+  }, {
+    "bio" : "Silu is an account manager covering Greater China AdMob business. Her work is to help App developers maximize ads revenue with Google's advertising products such as AdMob and AdExchange and also help them grow traffic through joint programs with advertiser side/Google Play. She is passionate about exploring App's different product cycles, especially user research and UIUX design. In her free time, she enjoys painting, hiking and taking photos to share on Instagram.",
+    "company" : "Google",
+    "companyLogo" : "/images/logos/google.svg",
+    "country" : "Singapore",
+    "featured" : true,
+    "id" : 13,
+    "name" : "Silu Luo",
+    "photoUrl" : "/images/people/Silu.jpg",
+    "shortBio" : "Silu is an account manager covering Greater China AdMob business...",
+    "tags" : [ "AdMob" ],
+    "title" : "Account manager, Greater China Apps"
+  }, {
+    "bio" : "Bella",
+    "company" : "Google",
+    "companyLogo" : "/images/logos/google.svg",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 14,
+    "name" : "Bella",
+    "photoUrl" : "/images/logos/google.svg",
+    "shortBio" : "Bella",
+    "tags" : [ "AdMob" ],
+    "title" : ""
   } ],
   "team" : [ {
-    "members": [
-      {
-        "name": "Dennis Wong",
-        "photoUrl": "/images/people/gdg_dennis.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/110955500947853903824/",
-            "name": "Google+"
-          },
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/dennis-wong-35093655",
-            "name": "Linkedin"
-          }
-        ],
-        "title": "Co-founder of GDG Hong Kong"
-      },
-      {
-        "name": "Homing Tam",
-        "photoUrl": "/images/people/gdg_homing.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+HomingTam",
-            "name": "Google+"
-          },
-          {
-            "icon": "website",
-            "link": "https://tamhoming.wordpress.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Team member"
-      },
-      {
-        "name": "Fung Lam",
-        "photoUrl": "/images/people/gdg_fung.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/lamchofung",
-            "name": "Linkedin"
-          },
-		  {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+FungLAM",
-            "name": "Google+"
-          },
-          {
-            "icon": "website",
-            "link": "http://www.androidfung.com",
-            "name": "Blog"
-          }
-        ],
-        "title": "Team member"
-      },
-      {
-        "name": "Emma Wong",
-        "photoUrl": "/images/people/gdg_emma.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/emma-wong-32477976",
-            "name": "Linkedin"
-          },
-		  {
-            "icon": "gplus",
-            "link": "https://plus.google.com/u/0/111901210044260497856",
-            "name": "Google+"
-          }
-        ],
-        "title": "Women Techmakers Hong Kong Lead"
-      },
-      {
-        "name": "Peter Lo",
-        "photoUrl": "/images/people/gdg_peter.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/petercslo",
-            "name": "Linkedin"
-          },{
-            "icon": "gplus",
-            "link": "https://plus.google.com/+PeterLoCS",
-            "name": "Google+"
-          }
-        ],
-        "title": "Team member"
-      },
-      {
-        "name": "Kinni Mew",
-        "photoUrl": "/images/people/gdg_kinni.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/kinni-mew-91bb48aa/",
-            "name": "Linkedin"
-          },
-		  {
-            "icon": "gplus",
-            "link": "https://plus.google.com/u/0/+KinniMew",
-            "name": "Google+"
-          }
-        ],
-        "title": "Team member"
-      },
-      {
-        "name": "Alex Fok",
-        "photoUrl": "/images/people/gdg_alex.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/alex-fok-a721852b",
-            "name": "Linkedin"
-          },
-		  {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+AlexFokHK",
-            "name": "Google+"
-          }
-        ],
-        "title": "Team member"
-      },
-      {
-        "name": "Herbert Man",
-        "photoUrl": "/images/people/gdg_herbert.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/manhoyin",
-            "name": "Linkedin"
-          },
-		  {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+HerbertMan",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/HerbertSir",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Team member"
+    "members" : [ {
+      "name" : "Dennis Wong",
+      "photoUrl" : "/images/people/gdg_dennis.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/110955500947853903824/",
+        "name" : "Google+"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/dennis-wong-35093655",
+        "name" : "Linkedin"
       } ],
+      "title" : "Co-founder of GDG Hong Kong"
+    }, {
+      "name" : "Homing Tam",
+      "photoUrl" : "/images/people/gdg_homing.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+HomingTam",
+        "name" : "Google+"
+      }, {
+        "icon" : "website",
+        "link" : "https://tamhoming.wordpress.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Team member"
+    }, {
+      "name" : "Fung Lam",
+      "photoUrl" : "/images/people/gdg_fung.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/lamchofung",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+FungLAM",
+        "name" : "Google+"
+      }, {
+        "icon" : "website",
+        "link" : "http://www.androidfung.com",
+        "name" : "Blog"
+      } ],
+      "title" : "Team member"
+    }, {
+      "name" : "Emma Wong",
+      "photoUrl" : "/images/people/gdg_emma.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/emma-wong-32477976",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/111901210044260497856",
+        "name" : "Google+"
+      } ],
+      "title" : "Women Techmakers Hong Kong Lead"
+    }, {
+      "name" : "Peter Lo",
+      "photoUrl" : "/images/people/gdg_peter.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/petercslo",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+PeterLoCS",
+        "name" : "Google+"
+      } ],
+      "title" : "Team member"
+    }, {
+      "name" : "Kinni Mew",
+      "photoUrl" : "/images/people/gdg_kinni.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/kinni-mew-91bb48aa/",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/+KinniMew",
+        "name" : "Google+"
+      } ],
+      "title" : "Team member"
+    }, {
+      "name" : "Alex Fok",
+      "photoUrl" : "/images/people/gdg_alex.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/alex-fok-a721852b",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+AlexFokHK",
+        "name" : "Google+"
+      } ],
+      "title" : "Team member"
+    }, {
+      "name" : "Herbert Man",
+      "photoUrl" : "/images/people/gdg_herbert.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/manhoyin",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+HerbertMan",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/HerbertSir",
+        "name" : "Facebook"
+      } ],
+      "title" : "Team member"
+    } ],
     "title" : "Core Team"
   } ],
   "tickets" : {
-    "elements" : [  {
+    "elements" : [ {
       "currency" : "$",
       "ends" : "Nov 10",
       "name" : "Free",
@@ -702,6 +790,5 @@
       "starts" : "Oct 1"
     } ],
     "url" : "https://www.eventbrite.com/e/gdg-devfest-2017-hong-kong-tickets-38105205696"
-  },
-  "videos" : [ null ]
+  }
 }
