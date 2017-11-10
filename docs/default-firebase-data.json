@@ -35,25 +35,25 @@
     "date" : "2017-11-11",
     "dateReadable" : "November 11",
     "timeslots" : [ {
-      "endTime" : "09:30",
-      "sessions" : [ [ 101 ] ],
-      "startTime" : "09:00"
-    }, {
       "endTime" : "10:00",
-      "sessions" : [ [ 102 ] ],
+      "sessions" : [ [ 101 ] ],
       "startTime" : "09:45"
     }, {
-      "endTime" : "10:45",
-      "sessions" : [ [ 103 ] ],
+      "endTime" : "10:10",
+      "sessions" : [ [ 102 ] ],
       "startTime" : "10:00"
     }, {
-      "endTime" : "11:00",
-      "sessions" : [ [ 104 ] ],
-      "startTime" : "10:45"
+      "endTime" : "10:30",
+      "sessions" : [ [ 103 ] ],
+      "startTime" : "10:10"
     }, {
-      "endTime" : "11:30",
+      "endTime" : "10:45",
+      "sessions" : [ [ 104 ] ],
+      "startTime" : "10:30"
+    }, {
+      "endTime" : "11:15",
       "sessions" : [ [ 111 ], [ 211 ], [ 311 ] ],
-      "startTime" : "11:00"
+      "startTime" : "10:45"
     }, {
       "endTime" : "12:00",
       "sessions" : [ [ 112 ], [ 212 ], [ 312 ] ],
@@ -146,12 +146,12 @@
     },
     "112" : {
       "complexity" : "Beginner",
-      "description" : "DialogFlow",
+      "description" : "Building A Shopping Assistant with DialogFlow",
       "id" : 112,
       "language" : "Cantonese",
-      "speakers" : [ 2 ],
+      "speakers" : [ 15 ],
       "tags" : [ "Web and Mobile" ],
-      "title" : "DialogFlow"
+      "title" : "Building A Shopping Assistant with DialogFlow"
     },
     "121" : {
       "complexity" : "Beginner",
@@ -166,22 +166,23 @@
       "complexity" : "Beginner",
       "description" : "Cloud Firestore: Rapid Development",
       "id" : 122,
-      "language" : "Cantonese",
+      "language" : "Cantonese/English",
       "speakers" : [ 11 ],
       "tags" : [ "Cloud" ],
       "title" : "Cloud Firestore: Rapid Development"
     },
     "123" : {
-      "complexity" : "Beginner",
-      "description" : "TBA",
+      "complexity" : "Begineer",
+      "description" : "Besides building apps, you can also write web apps built with amazing AR experience. Google has open sourced a library helping you to ride on ARCore / ARKit on Android / iOS devices to build AR Web applications. In this sharing, we will preview this technology and learn how to build AR experience together.",
       "id" : 123,
-      "language" : "TBA",
-      "tags" : [ "Cloud" ],
-      "title" : "TBA"
+      "language" : "Cantonese",
+      "speakers" : [ 3 ],
+      "tags" : [ "Web and Mobile" ],
+      "title" : "Web AR with google-ar/three.ar.js - Build once, run on both Android and iOS"
     },
     "124" : {
-      "complexity" : "Beginner",
-      "description" : "Android Oreo",
+      "complexity" : "Intermediate",
+      "description" : "Information Session about Android 8.0 and 8.1, Android Support Library, and Android Studio 3.0",
       "id" : 124,
       "language" : "Cantonese",
       "speakers" : [ 1 ],
@@ -230,22 +231,22 @@
       "title" : "CodeLab: Google Assistant Api.ai"
     },
     "223" : {
-      "complexity" : "Intermediate",
-      "description" : "Maps Url",
+      "complexity" : "Beginner",
+      "description" : "Review of recent changes on Google Maps, with some case sharing",
       "id" : 223,
       "language" : "English/Cantonese",
       "speakers" : [ 4 ],
       "tags" : [ "Cloud" ],
-      "title" : "Maps Url"
+      "title" : "Google Maps in 2017"
     },
     "224" : {
-      "complexity" : "Intermediate",
-      "description" : "WebAR",
+      "complexity" : "Beginner",
+      "description" : "Basic walkthrough of Jupyter, ggplot and Pandas including<br/>- Jupyter Introduction & Installation<br/>- Data Importing and Manipulation<br/>- Graph Visualization",
       "id" : 224,
+	  "speakers" : [ 16 ],
       "language" : "Cantonese",
-      "speakers" : [ 3 ],
-      "tags" : [ "Web and Mobile" ],
-      "title" : "WebAR"
+      "tags" : [ "Cloud" ],
+      "title" : "Jupyter 101"
     },
     "225" : {
       "complexity" : "TBD",
@@ -257,22 +258,24 @@
     },
     "311" : {
       "complexity" : "Beginner",
-      "description" : "TBD",
+      "description" : "Google for Entreprenuer (GBG) - with Guest Speaker<br/>Sharing the experience on How to build APP with zero programming in 1 month by using react & firebase",
       "id" : 311,
-      "language" : "TBD",
-      "tags" : [ "Dev 101" ],
-      "title" : "TBD"
+	  "language" : "Cantonese",
+	  "speakers" : [ 18,19 ],
+      "tags" : [ "Dev 101","GBG" ],
+      "title" : "Sharing the experience on How to build APP with zero programming in 1 month by using react & firebase"
     },
     "312" : {
       "complexity" : "Beginner",
-      "description" : "TBD",
+      "description" : "Google Cloud Launcher/Test Drive - How to build Big Data/Social Listening Platform by 1 Click",
       "id" : 312,
-      "language" : "TBD",
+      "language" : "Cantonese",
       "tags" : [ "Dev 101" ],
-      "title" : "TBD"
+	  "speakers" : [ 17 ],
+      "title" : "Google Cloud Launcher/Test Drive - How to build Big Data/Social Listening Platform by 1 Click"
     },
     "321" : {
-      "complexity" : "Beginner",
+      "complexity" : "Intermediate",
       "description" : "Case Study - Tensorflow Application for Textile Industry",
       "id" : 321,
       "language" : "English",
@@ -305,7 +308,7 @@
       "language" : "Cantonese/English",
       "speakers" : [ 14 ],
       "tags" : [ "Dev 101" ],
-      "title" : "Google Local Guides"
+      "title" : "Google Local Guides, making a world for everyone"
     },
     "325" : {
       "complexity" : "TBD",
@@ -316,13 +319,13 @@
       "title" : "TBD"
     },
     "421" : {
-      "complexity" : "Intermediate",
-      "description" : "GCP",
+      "complexity" : "Beginner",
+      "description" : "An overview of the products and services that Google Cloud Platform offer, together with some certification information.",
       "id" : 421,
-      "language" : "English",
+      "language" : "English/Cantonese",
       "speakers" : [ 4 ],
-      "tags" : [ "Machine Learning" ],
-      "title" : "GCP"
+      "tags" : [ "Cloud" ],
+      "title" : "Google Cloud Platform - Overview & Qualifications"
     },
     "422" : {
       "complexity" : "Intermediate",
@@ -344,12 +347,12 @@
     },
     "424" : {
       "complexity" : "Intermediate",
-      "description" : "Cloud ML",
+      "description" : "Deep Learning with Google Cloud ML",
       "id" : 424,
       "language" : "Cantonese",
       "speakers" : [ 2 ],
       "tags" : [ "Machine Learning" ],
-      "title" : "Cloud ML"
+      "title" : "Deep Learning with Google Cloud ML"
     },
     "425" : {
       "complexity" : "TBD",
@@ -373,7 +376,7 @@
     "featured" : true,
     "id" : 1,
     "name" : "Fung Lam",
-    "photoUrl" : "/images/people/gdg_fung.jpg",
+    "photoUrl" : "https://lh3.googleusercontent.com/jpUWrcZRZxHIwDX0S1lJt4n5SEXW1Hn43r8F4E0alalsNBfyyOZwRfNpKXJkIk3gY3KADLcyuULkxw=w1132-h1126-rw-no",
     "shortBio" : "Fung is an Android Developer....",
     "socials" : [ {
       "icon" : "linkedin",
@@ -652,18 +655,100 @@
     "tags" : [ "AdMob" ],
     "title" : "Account manager, Greater China Apps"
   }, {
-    "bio" : "Bella",
-    "company" : "Google",
-    "companyLogo" : "/images/logos/google.svg",
+    "bio" : "Level 8 Local Guide, started contributing since 2016",
+    "company" : "Hang Seng Bank",
+    "companyLogo" : "",
     "country" : "Hong Kong",
     "featured" : true,
     "id" : 14,
     "name" : "Bella",
-    "photoUrl" : "/images/logos/google.svg",
-    "shortBio" : "Bella",
-    "tags" : [ "AdMob" ],
+    "photoUrl" : "/images/people/bellajpg.jpg",
+    "shortBio" : "Level 8 Local Guide",
+    "tags" : [ "Local Guide" ],
+    "title" : "Bella"
+  }, {
+    "bio" : "Maggie Wong",
+    "company" : "Mindlayer Limited",
+    "companyLogo" : "/images/logos/mindlayer_logo.png",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 15,
+    "name" : "Maggie Wong",
+    "shortBio" : "Maggie Wong",
+    "tags" : [ "Local Guide" ],
+    "title" : "Level 8 Local Guide"
+  }, {
+    "bio" : "OurSky",
+    "company" : "OurSky",
+    "companyLogo" : "/images/logos/oursky.png",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 16,
+    "name" : "Wong Ho Wa",
+    "photoUrl" : "",
+    "shortBio" : "Wong Ho Wa",
+    "tags" : [ "Cloud" ],
     "title" : ""
-  } ],
+  }, {
+    "bio" : "Anson Ng",
+    "company" : "",
+    "companyLogo" : "",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 17,
+    "name" : "Anson Ng",
+    "photoUrl" : "",
+    "shortBio" : "Anson Ng",
+    "tags" : [ "Cloud" ],
+    "title" : ""
+  }, {
+      "badges" : [ {
+      "description" : "Google Developer Group Hong Kong",
+      "link" : "http://www.gdghk.org/",
+      "name" : "GDG"
+    }, {
+      "description" : "Google Business Group Hong Kong",
+      "link" : "https://developers.google.com/programs/gbg/groups/directory/",
+      "name" : "GBG"
+    } ],
+    "bio" : "Co-Founder & Managing Director of Master Concept Group. Currently, I'm responsible for business expansion, Merge & Acquisition, new investment, finance and group marketing of Master Concept Group. <br/> Mr. Wong has over 20 years of business development in PKI Security, Cloud Computing, Social Media Analytics and Enterprise Content and Document Management Solution experience in Asia. ",
+    "company" : "Master Concept Group",
+    "companyLogo" : "/images/logos/hkmci.png",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 18,
+    "name" : "Dennis Wong",
+    "photoUrl" : "/images/people/gdg_dennis.jpg",
+    "shortBio" : "Co-Founder & Managing Director of Master Concept Group...",
+    "tags" : [ "Cloud","GBG" ],
+    "title" : "Co Founder and Managing Director",
+	"socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/110955500947853903824/",
+        "name" : "Google+"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/dennis-wong-35093655",
+        "name" : "Linkedin"
+      } ]
+  }, {
+    "bio" : "A seasoned IT professional and a startup entrepreneur. Expert in mobile technologies, blockchain technologies and start-up entrepreneurship. <br/>Partner of KiWiNewEnergy - A disruptive crowd fund raising platform for new green energy. Enable by blockchain technology.<br/>CEO/Founder of Avrio Solutions Company Limited, HK ICT Startup (Business Stream) Silver Award Winner 2014. ",
+    "company" : "Avrio Solutions Company Limited",
+    "companyLogo" : "/images/logos/avrio_logo.png",
+    "country" : "Hong Kong",
+    "featured" : true,
+    "id" : 19,
+    "name" : "Zorro Cheng",
+    "photoUrl" : "/images/people/zorro-cheng.jpg",
+    "shortBio" : "Zorro Cheng",
+    "tags" : [ "GBG" ],
+    "title" : "CEO/Founder",
+	"socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/zorro-cheng-a6849a1/",
+        "name" : "Linkedin"
+      } ]
+  }],
   "team" : [ {
     "members" : [ {
       "name" : "Dennis Wong",
